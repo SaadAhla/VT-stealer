@@ -252,12 +252,6 @@ void search_files(const _TCHAR* directory) {
                 // Ignore the pseudo directories "." and ".."
                 if (_tcscmp(fileOrDirName, _T(".")) != 0 && _tcscmp(fileOrDirName, _T("..")) != 0) {
 
-
-                    // Check if directory is under a user's path
-                    if (_tcsncmp(directory, _T("C:\\Users\\"), 10) == 0) {
-                        continue; // Skip this directory and proceed to the next one
-                    }
-
                     // Check if directory contains $Recycle.Bin
                     if (_tcsstr(fileOrDirName, _T("$Recycle.Bin")) != NULL) {
                         continue; // Skip this directory and proceed to the next one
