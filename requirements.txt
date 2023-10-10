@@ -1,0 +1,4 @@
+requests
+base64
+art
+termcolor
