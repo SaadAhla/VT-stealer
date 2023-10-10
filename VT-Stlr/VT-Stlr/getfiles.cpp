@@ -6,7 +6,7 @@
 #include "getMetaData.h"
 
 // Note: Replace the placeholder values below with actual values.
-const char* api_key = "8b6e5ecfa72a0db4f9356f1bc55abe33d10ee8657f8a2a51bc7a528e518fe32f";
+const char* api_key = "<YOUR API KEY>";
 const char* file_hash = "54eea01fed409fd79cbcc515ac11da7a3df7c468663877f711557500a0c745f2";
 
 
