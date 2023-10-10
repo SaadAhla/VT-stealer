@@ -10,7 +10,7 @@ import zipfile
 from termcolor import colored, cprint
 
 # Your VirusTotal API key
-API_KEY = '8b6e5ecfa72a0db4f9356f1bc55abe33d10ee8657f8a2a51bc7a528e518fe32f'
+API_KEY = '<YOUR API KEY>'
 
 # VirusTotal API endpoint URL for retrieving comments
 URL = 'https://www.virustotal.com/vtapi/v2/comments/get'
